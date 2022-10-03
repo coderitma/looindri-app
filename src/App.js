@@ -22,7 +22,7 @@ const AuthGuard = () => {
     }
   }, [])
 
-  return (isAuthenticated ? <Outlet />: <Confirm/>)
+  return (isAuthenticated ? <Outlet />: <Confirm />)
 }
 
 const Dashboard = () => {
